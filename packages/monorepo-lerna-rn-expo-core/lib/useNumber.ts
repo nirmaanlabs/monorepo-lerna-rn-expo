@@ -1,3 +1,3 @@
 export const useNumber = (value: number) => {
-  return value;
+  return value * 2;
 };
