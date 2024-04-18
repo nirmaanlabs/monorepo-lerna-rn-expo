@@ -1,0 +1,32 @@
+{
+  "name": "monorepo-lerna-rn-expo-core",
+  "version": "0.0.0",
+  "description": "core",
+  "author": "GAURAV YADAV <gaurav.gydv@gmail.com>",
+  "homepage": "https://github.com/nirmaanlabs/monorepo-lerna-rn-expo#readme",
+  "license": "ISC",
+  "main": "lib/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirmaanlabs/monorepo-lerna-rn-expo.git"
+  },
+  "scripts": {
+    "start": "tsup --format esm,cjs,iife --legacy-output",
+    "build": "tsup --minify --format esm,cjs,iife --legacy-output"
+  },
+  "bugs": {
+    "url": "https://github.com/nirmaanlabs/monorepo-lerna-rn-expo/issues"
+  },
+  "devDependencies": {
+    "@esbuild-plugins/node-resolve": "^0.2.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.4"
+  }
+}
