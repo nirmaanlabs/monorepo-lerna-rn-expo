@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "example-zero" : "cd example/zero && npx expo start"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^8.1.2"
